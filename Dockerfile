@@ -9,4 +9,4 @@ COPY ./ /home/project
 RUN npm install --production
 # 向外提供7001端口
 EXPOSE 7001
-CMD ['npm','run','start']
+CMD ['npm','start']
